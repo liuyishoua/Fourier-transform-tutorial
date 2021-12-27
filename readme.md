@@ -1,4 +1,4 @@
-## Fourier transformation tutorial
+## Fourier transform tutorial
 
 **Intruduction**:
 
@@ -13,7 +13,7 @@
 
 [怎么理解虚数和复数？](https://www.zhihu.com/question/46877027)
 
-### 1 Fourier transformation in one dimensions discrete interpretation
+### 1 Fourier transform in one dimensions discrete interpretation
 **Steps**:
 * Generate 1000 discrete number which is distributed as $y=7*\sin(2\pi*200x)+5*\sin(2\pi*300x)+3*\sin(2\pi*400x)$
 * According to the forlumation below to get the frequency/spectrum domain
@@ -23,6 +23,9 @@ F(x)=\int_{-\infty}^{\infty}f(k)e^{-2\pi ikx}dk
 $$
 * Forlumation above is applied in continuously data. Here, $f(x)$ means the 1000 numbers, and the $F(x)$ means the frequency domain corresponding.
 * We can change for discrete one easily like below.
+![](http://latex.codecogs.com/gif.latex?f(x)=\sum_{k=0}^{N-1}F(k)e^{2\pi ikx}\\
+F(x)=\sum_{k=0}^{N-1}f(k)e^{-2\pi ikx}\\)
+
 $$
 f(x)=\sum_{k=0}^{N-1}F(k)e^{2\pi ikx}\\
 F(x)=\sum_{k=0}^{N-1}f(k)e^{-2\pi ikx}\\
@@ -48,7 +51,7 @@ $$F(x)=\sum_{k=0}^{N-1}f(k)\cos(2\pi kx/N)-if(k)\sin(2\pi kx/N)$$
 * np.real() to get the real part 
 * np.imag() to get the image part
 
-### 4 Fourier transformation in one dimensions discrete interpretation
+### 4 Fourier transform in one dimensions discrete interpretation
 $$
 f(x,y)=\sum_{i=0}^{N-1}\sum_{j=0}^{N-1}F(i,j)e^{-2\pi i(\frac{ix}{N}+\frac{jy}{N})}\\
 F(x,y)=\sum_{i=0}^{N-1}\sum_{j=0}^{N-1}f(i,j)e^{-2\pi i(\frac{ix}{N}+\frac{jy}{N})}\\
