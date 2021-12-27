@@ -23,9 +23,6 @@ F(x)=\int_{-\infty}^{\infty}f(k)e^{-2\pi ikx}dk
 $$
 * Forlumation above is applied in continuously data. Here, $f(x)$ means the 1000 numbers, and the $F(x)$ means the frequency domain corresponding.
 * We can change for discrete one easily like below.
-![](http://latex.codecogs.com/gif.latex?f(x)=\sum_{k=0}^{N-1}F(k)e^{2\pi ikx}\\
-F(x)=\sum_{k=0}^{N-1}f(k)e^{-2\pi ikx}\\)
-
 $$
 f(x)=\sum_{k=0}^{N-1}F(k)e^{2\pi ikx}\\
 F(x)=\sum_{k=0}^{N-1}f(k)e^{-2\pi ikx}\\
