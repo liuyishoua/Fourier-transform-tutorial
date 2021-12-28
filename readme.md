@@ -16,7 +16,7 @@
 ### 1 Fourier transform in one dimensions discrete interpretation
 **Steps**:
 * Generate 1000 discrete number which is distributed as 
-![](https://render.githubusercontent.com/render/math?math=y=7*\sin(2\pi*200x)+5*\sin(2\pi*300x)+3*\sin(2\pi*400x))
+![](https://render.githubusercontent.com/render/math?math=y=7*\sin(2\pi*200x)\+5*\sin(2\pi*300x)\+3*\sin(2\pi*400x))
 
 $y=7*\sin(2\pi*200x)+5*\sin(2\pi*300x)+3*\sin(2\pi*400x)$
 * According to the forlumation below to get the frequency/spectrum domain
